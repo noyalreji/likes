@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  border-style: solid;
+  border-style: solid black;
+  width: 14%;
+  
+}
+.same-line {
+  width: 102%;
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  border-style: solid black;
+}
+.same-line h1 {
+  font-size: 30px;
+}
+.same-line p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bottom-line {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-style: solid black;
+  width: 102%;
+  min-height: 100px;
+  
+}
+#count {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
